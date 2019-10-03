@@ -10,5 +10,25 @@ linux@linux-VirtualBox:/usr/bin$ cd
 linux@linux-VirtualBox:~$ cd ~
 linux@linux-VirtualBox:~$ cd ~/Musique
 bash: cd: /home/linux/Musique: No such file or directory
+linux@linux-VirtualBox:~$ cd ~/Musique
+bash: cd: /home/linux/Musique: No such file or directory
+linux@linux-VirtualBox:~$ cd ~/Musique
+bash: cd: /home/linux/Musique: No such file or directory
+linux@linux-VirtualBox:~$  cd ~/Musique
+bash: cd: /home/linux/Musique: No such file or directory
+linux@linux-VirtualBox:~$ cd ~/Music
+linux@linux-VirtualBox:~/Music$ cd
+linux@linux-VirtualBox:~$ cd ~/Music
+linux@linux-VirtualBox:~/Music$ pwd
+/home/linux/Music
+linux@linux-VirtualBox:~/Music$ ~
+bash: /home/linux: Is a directory
+linux@linux-VirtualBox:~/Music$ ~/
+bash: /home/linux/: Is a directory
+linux@linux-VirtualBox:~/Music$ cd
+linux@linux-VirtualBox:~$ pwd
+/home/linux
+linux@linux-VirtualBox:~$ ls
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
 linux@linux-VirtualBox:~$ 
-
