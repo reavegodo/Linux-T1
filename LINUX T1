@@ -1,0 +1,14 @@
+linux@linux-VirtualBox:~$ pwd
+/home/linux
+linux@linux-VirtualBox:~$ cd
+linux@linux-VirtualBox:~$ cd ..
+linux@linux-VirtualBox:/home$ cd /opt
+linux@linux-VirtualBox:/opt$ cd ../home/wilder
+bash: cd: ../home/wilder: No such file or directory
+linux@linux-VirtualBox:/opt$ cd /usr/bin
+linux@linux-VirtualBox:/usr/bin$ cd
+linux@linux-VirtualBox:~$ cd ~
+linux@linux-VirtualBox:~$ cd ~/Musique
+bash: cd: /home/linux/Musique: No such file or directory
+linux@linux-VirtualBox:~$ 
+
